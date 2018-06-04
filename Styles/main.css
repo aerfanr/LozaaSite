@@ -3,7 +3,10 @@
     font-family: "Dast Nevis";
     src: url("fonts/danstevis.ttf") , url("fonts/danstevis.otf");
 }
-
+/*font for buttons*/
+@font-face {
+    font-family: Tahoma;
+}
 
 /*main Styles*/
 *{
@@ -35,13 +38,27 @@ h1{
     font-size: 3em;
 }
 
-.head {
+.head{
     display: flex;
     background-color: #0099ff;
     width: 100vw;
     height: 50vh;
     align-items: center;
     justify-content: center;
+}
+
+h1{
+    color: azure;
+    font-family: "Typo Gotika Small Caps Demo";
+    font-size: 3em;
+
+}
+
+body {
+    background-color: #e5dcc1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .corner-rounded{
@@ -57,6 +74,12 @@ h1{
 .bg-white{
     background-color: #ffffff;
 }
+.bg-blue{
+     background-color: #2957ff;
+ }
 .border-success {
     border: solid 3px rgba(62,210,55,0.8);
+}
+.text-white{
+    color: white;
 }
