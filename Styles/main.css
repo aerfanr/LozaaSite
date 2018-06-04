@@ -115,3 +115,7 @@ body {
 .part3{
     height: 500px;
 }
+
+.size-standard{
+    height: 3em;
+}
