@@ -33,6 +33,7 @@ button {
     background-color: #d2d2d2;
     border: none;
     text-transform: capitalize;
+    font-family: "Cocogoose pro","Dast Nevis",sans-serif;
 }
 
 button:hover , button:focus{
@@ -69,7 +70,7 @@ body {
 }
 
 .corner-rounded{
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .bg-success {
