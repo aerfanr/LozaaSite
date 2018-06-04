@@ -42,6 +42,14 @@
     
         <!--main page-->
         <main>
+
+            <!--part1 -->
+            <div class="part part1">
+
+            </div>
+
+            <!--part2 -->
+            <img class="pol" src="images/part1.svg"/>
             <div class="center">
                 <div class="centerer">
                     <div class="container">
@@ -54,33 +62,14 @@
                     </div>
                     <script>
                         $(document).ready(function(){
-                            $('.container').cycle('fade',3000);
+                            $('.container').cycle({
+                                'fx':'fade',
+                                'speed' : 5000,
+                                next:   '.next',
+                                prev:   '.back'
+                            });
                         });
                     </script>
-                </div>
-            </div>
-
-            <!--part1 -->
-            <div class="part part1">
-
-            </div>
-
-            <!--part2 -->
-            <img class="pol" src="images/part1.svg"/>
-            <div class="part part2">
-                <div class="center">
-                    <div class="centerer">
-                        <div class="container">
-                            <div class="area bg-blue"><div class="avatar"><img src="images/erfan.jpg" alt="erfan" class="avatar-image"></div><p class="text-white">عرفان رفعتی : برنامه نویس</p></div>
-                            <div class="area bg-blue"><div class="avatar"><img src="images/nima.png" alt="nima" class="avatar-image"></div><p class="text-white">نیما تولایی : برنامه نویس</p></div>
-                            <div class="area bg-blue"><div class="avatar"><img src="images/artin.png" alt="artin" class="avatar-image"></div><p class="text-white">آرتین زارعی : برنامه نویس</p></div>
-                        </div>
-                        <script>
-                            $(document).ready(function(){
-                                $('.container').cycle('fade',3000);
-                            });
-                        </script>
-                    </div>
                 </div>
             </div>
             <img class="pol" src="images/part2.svg"/>
