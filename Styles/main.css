@@ -10,4 +10,30 @@
     @charset "UTF-8";
 }
 
-button
+button {
+    padding: 10px 20px;
+    background-color: #d2d2d2;
+    border: none;
+    text-transform: capitalize;
+}
+
+button:hover , button:focus{
+    opacity: 0.8;
+}
+
+.corner-rounded{
+    border-radius: 20%;
+}
+
+.bg-success {
+    background-color: rgba(62,210,55,0.8);
+}
+.bg-none{
+    background-color: rgba(73,255,65,0);
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.border-success {
+    border: solid 3px rgba(62,210,55,0.8);
+}
