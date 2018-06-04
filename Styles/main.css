@@ -20,13 +20,13 @@
     @charset "UTF-8";
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 body{
     background-color: #e5dcc1;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 button {
     padding: 10px 20px;
@@ -69,6 +69,12 @@ body {
     height: 100vh;
 }
 
+.pol{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
 .corner-rounded{
     border-radius: 20px;
 }
@@ -90,4 +96,22 @@ body {
 }
 .text-white{
     color: white;
+}
+
+.part{
+    display: flex;
+    width: 100vw;
+}
+
+.part1{
+    height: 500px;
+}
+
+.part2{
+    background-color: #00ff66;
+    height: 500px;
+}
+
+.part3{
+    height: 500px;
 }
