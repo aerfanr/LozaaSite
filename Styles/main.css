@@ -26,6 +26,7 @@
     margin: 0;
     padding: 0;
     font-family: "Dirooz-fd" , sans-serif;
+    max-width: 100%;
 }
 
 body{
@@ -76,6 +77,12 @@ body {
 }
 main{
     width: 100%;
+}
+
+.pol{
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 .corner-rounded{
@@ -135,4 +142,21 @@ main{
     right: auto;
     left: auto;
     margin-right: 25%;
+}
+.part{
+    display: flex;
+    width: 100vw;
+}
+
+.part1{
+    height: 500px;
+}
+
+.part2{
+    background-color: #00ff66;
+    height: 500px;
+}
+
+.part3{
+    height: 500px;
 }
