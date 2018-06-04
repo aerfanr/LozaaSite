@@ -172,3 +172,12 @@ main{
     float: right;
     width: 33%;
 }
+
+.back , .next {
+    width: 20px;
+    height: 20px;
+}
+.item{
+    text-align: center;
+    margin-right: 37.5%;
+}
