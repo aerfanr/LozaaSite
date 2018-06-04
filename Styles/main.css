@@ -82,6 +82,7 @@ main{
 .pol{
     margin: 0;
     padding: 0;
+    width: 100vw;
     display: block;
 }
 
@@ -156,7 +157,7 @@ main{
 
 .part2{
     background-color: #00ff66;
-    height: 500px;
+    width: 100vw;
 }
 
 .part3{
