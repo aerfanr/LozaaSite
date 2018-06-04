@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4830cf87-cc09-438c-b58c-b2b853225dec" name="Default" comment="" />
+    <list default="true" id="4830cf87-cc09-438c-b58c-b2b853225dec" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -104,6 +106,12 @@
               <item name="LozaaSiteTeam" type="462c0819:PsiDirectoryNode" />
               <item name="Styles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LozaaSiteTeam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LozaaSiteTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -119,6 +127,11 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desktop\Project\LozaaSite\LozaaSiteTeam\Styles\fonts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +157,7 @@
       <updated>1528055629704</updated>
       <workItem from="1528055636149" duration="1447000" />
       <workItem from="1528057708257" duration="254000" />
-      <workItem from="1528058791631" duration="2764000" />
+      <workItem from="1528058791631" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="به نام خدا&#10;شروع پروژه">
       <created>1528055844383</created>
@@ -164,7 +177,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4465000" />
+    <option name="totallyTimeSpent" value="4686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -243,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
