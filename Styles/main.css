@@ -1,11 +1,22 @@
 /*Description font*/
 @font-face {
     font-family: "Dast Nevis";
-    src: url("fonts/danstevis.ttf") , url("fonts/danstevis.otf");
+    src: url("fonts/danstevis.ttf") format("truetype") , url("fonts/danstevis.otf") format("opentype");
 }
 /*font for buttons*/
 @font-face {
+<<<<<<< HEAD
+    font-family: "Cocogoose pro";
+    src: url("fonts/button-font.ttf")format("truetype");
+}
+
+/*header font*/
+@font-face{
+    font-family: "Typo Gotika Small Caps Demo";
+    src: url("fonts/Typo Gotika Small Caps Demo.otf")format("opentype");
+=======
     font-family: Tahoma;
+>>>>>>> 03bdde3e09e09b16b87c2814a8780aa7ab9eaec1
 }
 
 /*main Styles*/
