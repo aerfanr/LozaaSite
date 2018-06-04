@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- به نام خداوند ویروس گارد -->
-<html lang="fa en">
+<html dir="rtl" lang="fa en">
 
     <head>
 
@@ -41,10 +41,19 @@
     
         <!--main page-->
         <main>
-            <div class="container">
-                <div class="avatar"><img src="images/erfan.jpg" alt="erfan" class="avatar-image"></div>
-                <div class="avatar"><img src="images/nima.png" alt="nima" class="avatar-image"></div>
-                <div class="avatar"><img src="images/artin.png" alt="artin" class="avatar-image"></div>
+            <div class="center">
+                <div class="centerer">
+                    <div class="container">
+                        <div class="area bg-blue"><div class="avatar"><img src="images/erfan.jpg" alt="erfan" class="avatar-image"></div><p class="text-white">عرفان رفعتی</p></div>
+                        <div class="area bg-blue"><div class="avatar"><img src="images/nima.png" alt="nima" class="avatar-image"></div><p class="text-white">نیما تولایی</p></div>
+                        <div class="area bg-blue"><div class="avatar"><img src="images/artin.png" alt="artin" class="avatar-image"></div><p class="text-white">آرتین زارعی</p></div>
+                    </div>
+                    <script>
+                        $(document).ready(function(){
+                            $('.container').cycle('fade',3000);
+                        });
+                    </script>
+                </div>
             </div>
         </main>
     
