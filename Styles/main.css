@@ -3,11 +3,16 @@
     font-family: "Dast Nevis";
     src: url("fonts/danstevis.ttf") , url("fonts/danstevis.otf");
 }
-
+/*font for buttons*/
+@font-face {
+    font-family: ;
+}
 
 /*main Styles*/
 *{
     @charset "UTF-8";
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -19,6 +24,29 @@ button {
 
 button:hover , button:focus{
     opacity: 0.8;
+}
+
+.head{
+    display: flex;
+    background-color: #0099ff;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: azure;
+    font-family: "Typo Gotika Small Caps Demo";
+    font-size: 3em;
+
+}
+
+body {
+    background-color: #e5dcc1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .corner-rounded{
@@ -34,6 +62,12 @@ button:hover , button:focus{
 .bg-white{
     background-color: #ffffff;
 }
+.bg-blue{
+     background-color: #2957ff;
+ }
 .border-success {
     border: solid 3px rgba(62,210,55,0.8);
+}
+.text-white{
+    color: white;
 }
