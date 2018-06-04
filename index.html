@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- به نام خداوند ویروس گارد -->
-<html lang="fa en">
+<html dir="rtl" lang="fa en">
 
     <head>
 
@@ -16,14 +16,15 @@
 
         <!--Styles-->
         <link rel="stylesheet" type="text/css" href="Styles/main.css" />
-        <link rel="stylesheet" href="librarys/jquery/ui/jquery-ui.css">
+        <link rel="stylesheet" href="Scripts/jquery/ui/jquery-ui.css">
+        <link rel="stylesheet" href="Styles/response.tablet.css">
 
         <!--Scripts-->
-        <script src="librarys/jquery/jquery-3.2.1.min.js"></script>
-        <script src="librarys/jquery/CircularLoader.js"></script>
-        <script src="librarys/jquery/ui/jquery-ui.js"></script>
-        <script src="librarys/jquery/jquery.cycle.js"></script>
-        <script src="librarys/jquery/jquery.easing.js"></script>
+        <script src="Scripts/jquery/jquery-3.2.1.min.js"></script>
+        <script src="Scripts/jquery/CircularLoader.js"></script>
+        <script src="Scripts/jquery/ui/jquery-ui.js"></script>
+        <script src="Scripts/jquery/jquery.cycle.js"></script>
+        <script src="Scripts/jquery/jquery.easing.js"></script>
 
     </head>
 
@@ -33,7 +34,7 @@
             <div class="head">
                 <h1>LOZAA Team</h1>
             </div>
-            <img class="pol" src="images/head1.svg" />
+            <img class="bg-head" src="images/head1.svg" />
         </header>
     
         <!--navigation-->
@@ -41,7 +42,20 @@
     
         <!--main page-->
         <main>
-            <button class="bg-blue text-white corner-rounded">Community</button>
+            <div class="center">
+                <div class="centerer">
+                    <div class="container">
+                        <div class="area bg-blue"><div class="avatar"><img src="images/erfan.jpg" alt="erfan" class="avatar-image"></div><p class="text-white">عرفان رفعتی : برنامه نویس</p></div>
+                        <div class="area bg-blue"><div class="avatar"><img src="images/nima.png" alt="nima" class="avatar-image"></div><p class="text-white">نیما تولایی : برنامه نویس</p></div>
+                        <div class="area bg-blue"><div class="avatar"><img src="images/artin.png" alt="artin" class="avatar-image"></div><p class="text-white">آرتین زارعی : برنامه نویس</p></div>
+                    </div>
+                    <script>
+                        $(document).ready(function(){
+                            $('.container').cycle('fade',3000);
+                        });
+                    </script>
+                </div>
+            </div>
 
             <!--part1 -->
             <div class="part part1"></div>
@@ -53,7 +67,6 @@
 
             <!--part3 -->
             <div class="part part3"></div>
-
         </main>
     
         <!--footer-->

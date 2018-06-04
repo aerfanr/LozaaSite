@@ -14,12 +14,18 @@
     font-family: "Typo Gotika Small Caps Demo";
     src: url("fonts/Typo Gotika Small Caps Demo.otf")format("opentype");
 }
+/*p font*/
+@font-face {
+    font-family: "Dirooz-fd";
+    src: url("fonts/Dirooz-FD.ttf") format("truetype");
+}
 
 /*main Styles*/
 *{
     @charset "UTF-8";
     margin: 0;
     padding: 0;
+    font-family: "Dirooz-fd" , sans-serif;
     max-width: 100%;
 }
 
@@ -27,6 +33,7 @@ body{
     background-color: #e5dcc1;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 button {
     padding: 10px 20px;
@@ -68,6 +75,9 @@ body {
     padding: 0;
     height: 100vh;
 }
+main{
+    width: 100%;
+}
 
 .pol{
     margin: 0;
@@ -98,6 +108,43 @@ body {
     color: white;
 }
 
+
+.avatar-image {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 30px white solid;
+    border-radius: 50%;
+}
+.avatar{
+    text-align: center;
+}
+.area{
+    background-color: #2957ff;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    left: 50%;
+    right: 50%;
+    overflow: auto;
+    display: block;
+    border-radius: 5px;
+}
+.container{
+    text-align: center;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.centerer{
+    right: auto;
+    left: auto;
+    margin-right: 25%;
+    position: relative;
+    z-index: 1;
+}
 .part{
     display: flex;
     width: 100vw;
@@ -114,4 +161,10 @@ body {
 
 .part3{
     height: 500px;
+}
+.job {
+    background-color: #0099ff;
+    width: 90%;
+    height: 90%;
+    position: absolute;
 }
