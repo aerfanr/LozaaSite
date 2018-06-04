@@ -142,6 +142,8 @@ main{
     right: auto;
     left: auto;
     margin-right: 25%;
+    position: relative;
+    z-index: 1;
 }
 .part{
     display: flex;
@@ -159,4 +161,10 @@ main{
 
 .part3{
     height: 500px;
+}
+.job {
+    background-color: #0099ff;
+    width: 90%;
+    height: 90%;
+    position: absolute;
 }
