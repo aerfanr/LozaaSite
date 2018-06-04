@@ -180,4 +180,6 @@ main{
 .item{
     text-align: center;
     margin-right: 37.5%;
+    left: auto;
+    right: auto;
 }
