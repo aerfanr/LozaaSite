@@ -1,0 +1,13 @@
+/*Description font*/
+@font-face {
+    font-family: "Dast Nevis";
+    src: url("fonts/danstevis.ttf") , url("fonts/danstevis.otf");
+}
+
+
+/*main Styles*/
+*{
+    @charset "UTF-8";
+}
+
+button
