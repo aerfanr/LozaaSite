@@ -40,8 +40,14 @@ button {
     background-color: #d2d2d2;
     border: none;
     text-transform: capitalize;
+<<<<<<< HEAD
     font-family: "Dirooz-fd","Cocogoose pro","Dast Nevis",sans-serif;
+=======
+    font-family: "Cocogoose pro","Dirooz-fd",sans-serif;
+>>>>>>> 846d424b553abd06b2607aaf074af42c3f5cae21
     max-height: 40px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 button:hover , button:focus{
@@ -56,6 +62,7 @@ h1{
 }
 
 .head{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     background-color: #0099ff;
@@ -286,7 +293,28 @@ br {
     width: 100vw;
 }
 
-.logo{
+.logo {
     width: 25vw;
     height: auto;
+}
+
+.nav{
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #363636;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.btn-blue-out{
+    border: 1px solid #0099ff;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: #0099ff;
 }
