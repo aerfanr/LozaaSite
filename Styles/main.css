@@ -82,6 +82,7 @@ main{
 .pol{
     margin: 0;
     padding: 0;
+    width: 100vw;
     display: block;
 }
 
@@ -110,40 +111,35 @@ main{
 
 
 .avatar-image {
+    width: 75%;
+    height: 75%;
     text-align: center;
-    width: 300px;
-    height: 300px;
-    border: 30px white solid;
+    border: 1vw white solid;
     border-radius: 50%;
 }
 .avatar{
     text-align: center;
 }
 .area{
-    background-color: #2957ff;
     text-align: center;
-    width: 420px;
-    height: 420px;
+    width: 35vw;
+    height: 35vw;
     padding: 10px;
-    left: 50%;
-    right: 50%;
     overflow: auto;
     display: block;
     border-radius: 5px;
 }
 .container{
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 .center{
     text-align: center;
 }
 .centerer{
-    right: auto;
-    left: auto;
-    margin-right: 25%;
-    position: relative;
-    z-index: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 .part{
     display: flex;
@@ -156,7 +152,7 @@ main{
 
 .part2{
     background-color: #00ff66;
-    height: 500px;
+    width: 100vw;
 }
 
 .part3{
@@ -169,8 +165,6 @@ main{
     position: absolute;
 }
 .slider-item{
-    float: right;
-    width: 33%;
 }
 
 .back , .next {
@@ -178,8 +172,14 @@ main{
     height: 20px;
 }
 .item{
+<<<<<<< HEAD
     text-align: center;
     margin-right: 37.5%;
     left: auto;
     right: auto;
+=======
+    display: inline-flex;
+    justify-content: center;
+
+>>>>>>> 95ac6f15ef0a2f2072dbcb792900c10dadc6d464
 }
