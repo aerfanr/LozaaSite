@@ -20,12 +20,12 @@
         <link rel="stylesheet" href="Styles/response.tablet.css">
 
         <!--Scripts-->
-        <script src="Scripts/main.js"></script>
         <script src="Scripts/jquery-3.2.1.min.js"></script>
         <script src="Scripts/CircularLoader.js"></script>
         <script src="Scripts/jquery-ui.js"></script>
         <script src="Scripts/jquery.cycle.js"></script>
         <script src="Scripts/jquery.easing.js"></script>
+        <script src="Scripts/main.js"></script>
 
     </head>
 
@@ -43,7 +43,7 @@
         <!--navigation-->
         <nav>
             <div class="nav">
-
+                <button class="btn-blue-out login text-white">ورود</button>
             </div>
         </nav>
 
@@ -53,19 +53,6 @@
             <!--part1 -->
             <div class="part part1">
                 <p>test</p>
-                <button class="bg-blue login text-white">ورود</button>
-                <script>
-                    $(document).ready(function () {
-                        $(".login").click(function () {
-                            $(".part4").fadeIn(1500);
-                        });
-                    });
-                    $(document).ready(function () {
-                        $(".times").click(function () {
-                            $(".part4").fadeOut(1500);
-                        });
-                    });
-                </script>
             </div>
 
             <!--part2 -->
@@ -90,22 +77,6 @@
                             <img width="10px" src="images/arrowL.svg" class="text-white slider-item back" alt="<">
                         </div>
                     </div>
-                    <script>
-                        $(document).ready(function(){
-                            $('.container').cycle({
-                                'fx':'fade',
-                                'speed' : 1000,
-                                next:   '.next',
-                                prev:   '.back',
-                                cssBefore: {
-                                    display: 'inline-flex'
-                                },
-                                cssAfter: {
-                                    display: 'inline-flex'
-                                }
-                            });
-                        });
-                    </script>
             </div>
             <img class="pol" src="images/part2.svg"/>
 
@@ -136,6 +107,8 @@
             </div>
 
         </main>
+
+
     
         <!--footer-->
         <footer></footer>
