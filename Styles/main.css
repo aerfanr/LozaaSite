@@ -303,6 +303,7 @@ br {
     background-color: #363636;
     align-items: center;
     padding: 0px 5px;
+    z-index: 10;
 }
 
 .btn-blue-out{
