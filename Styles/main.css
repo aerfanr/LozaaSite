@@ -287,7 +287,16 @@ br {
     width: 100vw;
 }
 
-.logo{
+.logo {
     width: 25vw;
     height: auto;
+}
+
+.nav{
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #363636;
 }
