@@ -198,3 +198,11 @@ main{
 .mainLog {
     background-color: white;
 }
+.nav{
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #363636;
+}
