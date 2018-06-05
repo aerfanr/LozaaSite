@@ -51,19 +51,23 @@
             <!--part2 -->
             <img class="pol" src="images/part1.svg"/>
             <div class="part2">
-                <div class="centerer">
                     <div class="container">
-                        <div class="area bg-blue">
-                            <div class="avatar"><img src="images/erfan.jpg" alt="erfan" class="avatar-image"></div>
-                            <div class="item"><img src="images/arrowR.svg" alt="<" class="text-white slider-item back"><p class="text-white slider-item">عرفان رفعتی <br> برنامه نویس</p><img class="text-white slider-item next" src="images/arrowL.svg" alt=">"></div>
+                        <div class="area">
+                            <img class="text-white slider-item next" src="images/arrowR.svg" alt=">">
+                            <div class="avatar"><img src="images/erfan.png" alt="erfan" class="avatar-image"></div>
+                            <img width="10px" src="images/arrowL.svg" class="text-white slider-item back" alt="<">
                         </div>
-                        <div class="area bg-blue">
-                            <div class="avatar"><img src="images/nima.png" alt="nima" class="avatar-image"></div>
-                            <div class="item"><img width="10px" src="images/arrowR.svg" alt="<" class="text-white slider-item back"><p class="text-white slider-item">نیما تولایی <br> برنامه نویس</p><img width="10px" class="text-white slider-item next" src="images/arrowL.svg" alt=">"></div>
+
+                        <div class="area">
+                            <img class="text-white slider-item next" src="images/arrowR.svg" alt=">">
+                            <div class="avatar"><img src="images/artin.png" alt="erfan" class="avatar-image"></div>
+                            <img width="10px" src="images/arrowL.svg" class="text-white slider-item back" alt="<">
                         </div>
-                        <div class="area bg-blue">
-                            <div class="avatar"><img src="images/artin.png" alt="artin" class="avatar-image"></div>
-                            <div class="item"><img width="10px" src="images/arrowR.svg" class="text-white slider-item back" alt="<"><p class="text-white slider-item">آرتین زارعی <br> برنامه نویس</p><img width="10px" class="text-white slider-item next" src="images/arrowL.svg" alt=">"></div>
+
+                        <div class="area">
+                            <img class="text-white slider-item next" src="images/arrowR.svg" alt=">">
+                            <div class="avatar"><img src="images/nima.png" alt="erfan" class="avatar-image"></div>
+                            <img width="10px" src="images/arrowL.svg" class="text-white slider-item back" alt="<">
                         </div>
                     </div>
                     <script>
@@ -72,11 +76,16 @@
                                 'fx':'fade',
                                 'speed' : 1000,
                                 next:   '.next',
-                                prev:   '.back'
+                                prev:   '.back',
+                                cssBefore: {
+                                    display: 'inline-flex'
+                                },
+                                cssAfter: {
+                                    display: 'inline-flex'
+                                }
                             });
                         });
                     </script>
-                </div>
             </div>
             <img class="pol" src="images/part2.svg"/>
 
