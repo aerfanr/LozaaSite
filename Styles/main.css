@@ -180,3 +180,14 @@ main{
     display: inline-flex;
     justify-content: center;
 }
+
+.part4 {
+    position: fixed;
+    background-color: rgba(67,64,61,0.6);
+    width: 100%;
+    z-index: 2;
+    overflow: auto;
+}
+.mainLog {
+    background-color: white;
+}
