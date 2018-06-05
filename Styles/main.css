@@ -185,7 +185,6 @@ main{
     offset-start: inherit;
     display: inline-flex;
     justify-content: center;
-<<<<<<< HEAD
     border-radius: 20px;
     border: 3px solid #0cfff0;
 }
@@ -203,5 +202,4 @@ main{
 }
 .mainLog {
     background-color: white;
->>>>>>> 64ba72a6a716533475ee39ce01eae05cca178f82
 }
