@@ -171,11 +171,10 @@ main{
     height: 90%;
     position: absolute;
 }
-.slider-item{}
 
 .back , .next {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 .item{
     padding: 1%;
@@ -187,10 +186,6 @@ main{
     justify-content: center;
     border-radius: 20px;
     border: 3px solid #0cfff0;
-}
-.person{
-
-=======
 }
 
 .part4 {
