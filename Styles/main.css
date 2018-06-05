@@ -51,10 +51,12 @@ h1{
     color: azure;
     font-family: "Typo Gotika Small Caps Demo",sans-serif;
     font-size: 3em;
+    display: block;
 }
 
 .head{
     display: flex;
+    flex-wrap: wrap;
     background-color: #0099ff;
     width: 100vw;
     height: 50vh;
@@ -76,7 +78,12 @@ body {
     height: 100vh;
 }
 main{
-    width: 100%;
+    width: 100vw;
+}
+br {
+    content: '\A';
+    display: contents;
+    white-space: pre;
 }
 
 .pol{
@@ -197,4 +204,15 @@ main{
 }
 .mainLog {
     background-color: white;
+}
+
+.nline{
+    display: block;
+    height: 0;
+    width: 100vw;
+}
+
+.logo{
+    width: 25vw;
+    height: auto;
 }
