@@ -21,7 +21,4 @@ $(document).ready(function(){
         $(".part4").fadeOut(500);
     });
 
-    $("button").mouseenter(function () {
-        $(this).addClass("bg-blue")
-    });
 });
