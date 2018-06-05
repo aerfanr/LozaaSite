@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="Styles/response.tablet.css">
 
         <!--Scripts-->
+        <script src="Scripts/main.js"></script>
         <script src="Scripts/jquery-3.2.1.min.js"></script>
         <script src="Scripts/CircularLoader.js"></script>
         <script src="Scripts/jquery-ui.js"></script>
@@ -36,16 +37,29 @@
             </div>
             <img class="bg-head" src="images/head1.svg" />
         </header>
-    
+
         <!--navigation-->
         <nav></nav>
-    
+
         <!--main page-->
         <main>
 
             <!--part1 -->
             <div class="part part1">
-
+                <p>test</p>
+                <button class="bg-blue login text-white">ورود</button>
+                <script>
+                    $(document).ready(function () {
+                        $(".login").click(function () {
+                            $(".part4").fadeIn(1500);
+                        });
+                    });
+                    $(document).ready(function () {
+                        $(".times").click(function () {
+                            $(".part4").fadeOut(1500);
+                        });
+                    });
+                </script>
             </div>
 
             <!--part2 -->
@@ -90,17 +104,26 @@
             <img class="pol" src="images/part2.svg"/>
 
             <!--part3 -->
-            <div class="part part3"></div>
+            <div class="part part3">
+                <p>test</p>
+            </div>
 
             <!--part4 : login-->
             <div class="part part4">
                 <div class="mainLog">
+                    <span class="times">&times;</span>
+                    <div class="imageuser">
+                        <img class="LoginIMG" src="images/user.svg" alt="">
+                    </div>
                     <form action="" method="post">
-                        <label for="nameINP">نام کاربری :</label>
-                        <input type="text" name="name" id="nameINP">
-                        <br>
-                        <label for="passINP">رمز عبور :</label>
-                        <input type="password" name="name" id="passINP">
+                        <div class="mainContainer">
+                            <label for="nameINP">نام کاربری :</label>
+                            <input type="text" name="name" id="nameINP" placeholder="username" required>
+                            <br>
+                            <label for="passINP">رمز عبور :</label>
+                            <input required placeholder="password" type="password" name="name" id="passINP">
+                        </div>
+                        <button type="submit" class="bg-blue text-white submit">ارسال</button>
                     </form>
                 </div>
             </div>
