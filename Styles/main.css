@@ -140,6 +140,8 @@ main{
     width: 100vw;
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 .part{
     display: flex;
@@ -164,8 +166,7 @@ main{
     height: 90%;
     position: absolute;
 }
-.slider-item{
-}
+.slider-item{}
 
 .back , .next {
     width: 20px;
@@ -173,9 +174,9 @@ main{
 }
 .item{
     text-align: center;
-    margin-right: 37.5%;
-    left: auto;
-    right: auto;
+    margin-right: 0;
+    margin-left: 0;
+    offset-start: inherit;
     display: inline-flex;
     justify-content: center;
 }
