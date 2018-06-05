@@ -270,3 +270,6 @@ main{
     text-align: center;
     child-align: middle;
 }
+.forget {
+    margin-right: 20px;
+}
