@@ -40,7 +40,7 @@ button {
     background-color: #d2d2d2;
     border: none;
     text-transform: capitalize;
-    font-family: "Cocogoose pro","Dast Nevis",sans-serif;
+    font-family: "Dirooz-fd","Cocogoose pro","Dast Nevis",sans-serif;
     max-height: 40px;
 }
 
@@ -269,8 +269,6 @@ main{
     align-items: center;
     text-align: center;
     child-align: middle;
-<<<<<<< HEAD
-=======
 }
 .forget {
     margin-right: 20px;
