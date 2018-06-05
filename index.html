@@ -20,7 +20,6 @@
         <link rel="stylesheet" href="Styles/response.tablet.css">
 
         <!--Scripts-->
-        <script src="Scripts/main.js"></script>
         <script src="Scripts/jquery-3.2.1.min.js"></script>
         <script src="Scripts/CircularLoader.js"></script>
         <script src="Scripts/jquery-ui.js"></script>
@@ -46,19 +45,7 @@
 
             <!--part1 -->
             <div class="part part1">
-                <button class="bg-blue login text-white">ورود</button>
-                <script>
-                    $(document).ready(function () {
-                        $(".login").click(function () {
-                            $(".part4").fadeIn(1500);
-                        });
-                    });
-                    $(document).ready(function () {
-                        $(".times").click(function () {
-                            $(".part4").fadeOut(1500);
-                        });
-                    });
-                </script>
+
             </div>
 
             <!--part2 -->
@@ -99,19 +86,12 @@
             <!--part4 : login-->
             <div class="part part4">
                 <div class="mainLog">
-                    <span class="times">&times;</span>
-                    <div class="imageuser">
-                        <img class="LoginIMG" src="images/user.svg" alt="">
-                    </div>
                     <form action="" method="post">
-                        <div class="mainContainer">
-                            <label for="nameINP">نام کاربری :</label>
-                            <input type="text" name="name" id="nameINP" placeholder="username" required>
-                            <br>
-                            <label for="passINP">رمز عبور :</label>
-                            <input required placeholder="password" type="password" name="name" id="passINP">
-                        </div>
-                        <button type="submit" class="bg-blue text-white submit">ارسال</button>
+                        <label for="nameINP">نام کاربری :</label>
+                        <input type="text" name="name" id="nameINP">
+                        <br>
+                        <label for="passINP">رمز عبور :</label>
+                        <input type="password" name="name" id="passINP">
                     </form>
                 </div>
             </div>
