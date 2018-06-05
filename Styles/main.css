@@ -52,10 +52,12 @@ h1{
     color: azure;
     font-family: "Typo Gotika Small Caps Demo",sans-serif;
     font-size: 3em;
+    display: block;
 }
 
 .head{
     display: flex;
+    flex-wrap: wrap;
     background-color: #0099ff;
     width: 100vw;
     height: 50vh;
@@ -77,7 +79,12 @@ body {
     height: 100vh;
 }
 main{
-    width: 100%;
+    width: 100vw;
+}
+br {
+    content: '\A';
+    display: contents;
+    white-space: pre;
 }
 
 .pol{
@@ -181,8 +188,6 @@ main{
 .item{
     padding: 1%;
     text-align: center;
-    margin-right: 0;
-    margin-left: 0;
     offset-start: inherit;
     display: inline-flex;
     justify-content: center;
@@ -269,10 +274,20 @@ main{
     align-items: center;
     text-align: center;
     child-align: middle;
-<<<<<<< HEAD
-=======
+
 }
 .forget {
     margin-right: 20px;
->>>>>>> part4
+    background-color: white;
+}
+
+.nline{
+    display: block;
+    height: 0;
+    width: 100vw;
+}
+
+.logo{
+    width: 25vw;
+    height: auto;
 }
