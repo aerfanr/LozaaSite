@@ -40,11 +40,7 @@ button {
     background-color: #d2d2d2;
     border: none;
     text-transform: capitalize;
-<<<<<<< HEAD
     font-family: "Dirooz-fd","Cocogoose pro","Dast Nevis",sans-serif;
-=======
-    font-family: "Cocogoose pro","Dirooz-fd",sans-serif;
->>>>>>> 846d424b553abd06b2607aaf074af42c3f5cae21
     max-height: 40px;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
