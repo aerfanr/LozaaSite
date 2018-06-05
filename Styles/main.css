@@ -269,4 +269,10 @@ main{
     align-items: center;
     text-align: center;
     child-align: middle;
+<<<<<<< HEAD
+=======
+}
+.forget {
+    margin-right: 20px;
+>>>>>>> part4
 }
