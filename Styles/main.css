@@ -318,3 +318,13 @@ br {
 button:hover{
     background-color: #0099ff;
 }
+
+a{
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s !important;
+    transition-duration: 0.5s !important;
+}
+
+a:hover, a:focus, a:active{
+    opacity: 0.7 !important;
+}
