@@ -328,9 +328,9 @@ button:hover{
 
 }
 .foot-item {
-    width: 30vw;
+    width: 29vw;
     display: inline;
-    margin: 0.33vw;
+    margin: 1vw;
     float: right;
     position: static;
 }
@@ -353,12 +353,21 @@ button:hover{
 .part-2-footer {
     vertical-align: top;
     text-decoration: none;
+    align-self: center;
+    align-content: center;
+    align-items: center;
     text-align: center;
+    child-align: middle;
 }
 .part-3-footer {
     vertical-align: top;
     margin: 0;
     float: right;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    child-align: middle;
 
 }
 
@@ -378,4 +387,8 @@ a:hover, a:focus, a:active{
     content: "";
     clear: both;
     display: table;
+}
+.sites {
+    width: 200px;
+    height: 200px;
 }
