@@ -166,6 +166,7 @@ br {
 
 .part1{
     height: 500px;
+    margin-top: 20px;
 }
 
 .part2{
@@ -302,7 +303,9 @@ br {
     height: 50px;
     background-color: #363636;
     align-items: center;
-    padding: 0 5px;
+}
+.nav > *{
+    margin: 0 5px;
 }
 
 .btn-blue-out{
