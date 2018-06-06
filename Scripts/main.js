@@ -38,6 +38,4 @@ $(document).ready(function(){
             scrollTop: $(".part3").offset().top - 50
         }, 500);
     });
-
-    $("html, body").scroll()
 });
