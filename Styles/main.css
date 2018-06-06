@@ -302,7 +302,7 @@ br {
     height: 50px;
     background-color: #363636;
     align-items: center;
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 .btn-blue-out{
@@ -313,4 +313,51 @@ br {
 
 button:hover{
     background-color: #0099ff;
+}
+
+.foot {
+    background-color: #363636;
+    width: 100%;
+    border: none;
+    position: relative;
+
+}
+.foot-item {
+    width: 30vw;
+    display: inline-block;
+    clear: column;
+    margin: 0.33vw;
+    float: right;
+}
+.etemad-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 50vw;
+    border: #fefefe 1px solid;
+    display: block;
+}
+.about {
+    word-wrap: break-word;
+    word-break: normal;
+    display: block;
+}
+.listlink {
+    list-style: none;
+}
+.part-1-footer {}
+.part-2-footer {
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+}
+.part-3-footer {
+    vertical-align: top;
+    display: inline-block;
+    clear: both;
+    margin: 0;
+
+}
+
+.link {
+    text-decoration: none;
 }
