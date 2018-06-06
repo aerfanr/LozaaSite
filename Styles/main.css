@@ -303,14 +303,12 @@ br {
     height: 50px;
     background-color: #363636;
     align-items: center;
-<<<<<<< HEAD
     padding: 0 5px;
-=======
     z-index: 10;
 }
 .nav > *{
     margin: 0 5px;
->>>>>>> 1ceab476b5f80b92d44bb7478b2caa4fc2a36f0c
+    z-index: 1000;
 }
 
 .btn-blue-out{
