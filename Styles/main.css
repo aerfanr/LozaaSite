@@ -166,6 +166,7 @@ br {
 
 .part1{
     height: 500px;
+    margin-top: 20px;
 }
 
 .part2{
@@ -302,7 +303,14 @@ br {
     height: 50px;
     background-color: #363636;
     align-items: center;
+<<<<<<< HEAD
     padding: 0 5px;
+=======
+    z-index: 10;
+}
+.nav > *{
+    margin: 0 5px;
+>>>>>>> 1ceab476b5f80b92d44bb7478b2caa4fc2a36f0c
 }
 
 .btn-blue-out{
@@ -314,7 +322,6 @@ br {
 button:hover{
     background-color: #0099ff;
 }
-
 .foot {
     background-color: #363636;
     width: 100%;
@@ -360,4 +367,13 @@ button:hover{
 
 .link {
     text-decoration: none;
+}
+a{
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s !important;
+    transition-duration: 0.5s !important;
+}
+
+a:hover, a:focus, a:active{
+    opacity: 0.7 !important;
 }
