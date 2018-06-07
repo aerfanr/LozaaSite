@@ -380,7 +380,7 @@ a{
     transition-duration: 0.5s !important;
 }
 
-a:hover, a:focus, a:active{
+a:hover, a:active{
     opacity: 0.7 !important;
 }
 .foot::after {
@@ -388,7 +388,28 @@ a:hover, a:focus, a:active{
     clear: both;
     display: table;
 }
-.sites {
-    width: 200px;
-    height: 200px;
+
+.site{
+    width: 50px;
+    height: 50px;
+
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -ms-transition-duration: 250ms;
+    -o-transition-duration: 250ms;
+    transition-duration: 250ms;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.site:hover{
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
