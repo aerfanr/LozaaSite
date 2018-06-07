@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <!-- به نام خداوند ویروس گارد -->
+<!-- و همان خدایی که نخست برنامه نویس جهان بود و هست اما اینکه  فکر نمیکنم خدا در طراحی وب دستی داشته باشه -->
+
+
 <html dir="rtl" lang="fa en">
 
     <head>
@@ -85,6 +88,13 @@
                                 }
                             });
                         });
+                        function onmouseover(e) {
+                            e.placeholder = 'یه چیزی رو من بنویس!'
+
+                        }
+                        function onfocus(e) {
+                            e.placeholder = ''
+                        }
                     </script>
             </div>
             <img class="pol" src="images/part2.svg"/>
@@ -99,7 +109,7 @@
                 <div class="mainLog">
                     <form action="" method="post">
                         <label for="nameINP">نام کاربری :</label>
-                        <input type="text" name="name" id="nameINP">
+                        <input type="text" name="name" id="nameINP" onmouseover="onmouseover(this)" onfocus="onfocus(this)">
                         <br>
                         <label for="passINP">رمز عبور :</label>
                         <input type="password" name="name" id="passINP">
@@ -110,7 +120,9 @@
         </main>
     
         <!--footer-->
-        <footer></footer>
+        <footer>
+
+        </footer>
 
     </body>
 
