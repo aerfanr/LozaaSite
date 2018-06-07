@@ -12,6 +12,13 @@ $(document).ready(function(){
             display: 'inline-flex'
         }
     });
+    function onmouseover(e) {
+        e.placeholder = 'یه چیزی رو من بنویس!'
+
+    }
+    function onfocus(e) {
+        e.placeholder = ''
+    }
 
     $(".login").click(function () {
         $(".part4").fadeIn(500);
