@@ -321,7 +321,7 @@ button:hover{
     background-color: #0099ff;
 }
 .foot {
-    background-color: #363636;
+    background-color: #333333;
     width: 100%;
     border: none;
     position: absolute;
@@ -391,4 +391,26 @@ a:hover, a:active{
 
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+}
+
+.foot-line-1{
+    width: 100vw;
+    display: inline-flex;
+}
+
+.foot-line-2{
+    background-color: #1c1c1c;
+    width: 100vw;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.part-5-footer{
+    margin: 0;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.pol4{
+    width: 100vw;
 }
