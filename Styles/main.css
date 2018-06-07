@@ -325,21 +325,14 @@ button:hover{
     width: 100%;
     border: none;
     position: absolute;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 .foot-item {
-    width: 29vw;
-    display: inline;
-    margin: 1vw;
-    float: right;
-    position: static;
-}
-.etemad-image {
-    width: 50%;
-    height: 50%;
-    border-radius: 50vw;
-    border: #fefefe 1px solid;
+    width: 47vw !important;
     display: block;
+    margin: 1vw;
+    position: static;
 }
 .about {
     word-wrap: break-word;
@@ -349,26 +342,12 @@ button:hover{
 .listlink {
     list-style: none;
 }
-.part-1-footer {}
 .part-2-footer {
-    vertical-align: top;
     text-decoration: none;
-    align-self: center;
-    align-content: center;
-    align-items: center;
     text-align: center;
-    child-align: middle;
 }
 .part-3-footer {
-    vertical-align: top;
     margin: 0;
-    float: right;
-    align-self: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    child-align: middle;
-
 }
 
 .link {
