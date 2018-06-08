@@ -3,4 +3,7 @@
         display: block;
         width: 100vw;
     }
+    div{
+        flex-wrap: wrap;
+    }
 }
