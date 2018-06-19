@@ -95,6 +95,7 @@ br {
     padding: 0;
     width: 100vw;
     display: block;
+    vertical-align: middle;
 }
 
 .corner-rounded{
